@@ -10,7 +10,7 @@ class ReciboLuz {
     // Declarar métodos de tipo público (public)
 public:
     int calcularConsumo(int lecturaAnterior, int lecturaActual);
-    float calcularCostoConsumo(int costoKw, int consumoPeriodo);
+    float calcularCostoConsumo(float costoKw, int consumoPeriodo);
     float calcularTotalPeriodo(float costoConsumo, int consumoPeriodo);
 
     // Declarar atributos de tipo privado (private)
